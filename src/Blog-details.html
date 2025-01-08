@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="min-w-[360px]">
+    <nav class="">
+        <div class="bg-[#C01424] text-white text-center py-4">FREE SHIPPING OVER $99.99</div>
+        <div class="container px-6 block mx-auto py-3">
+            <div class="grid items-center justify-between grid-flow-col">
+                <i class="lg:hidden ri-menu-fill text-2xl"></i>
+
+                <div>
+                    <a href="Home.html">
+                        <img class="lg:w-28 w-20" src="images/Oh-Homme.webp" alt="">
+                    </a>
+                </div>
+
+                <div class="lg:block hidden">
+                    <ul class="flex justify-between uppercase xl:gap-8 lg:gap-8">
+                        <li><a class="text-base font-normal text-red-600" href="Home.html">Home</a></li>
+                        <li><a class="text-base font-normal" href="Shop.html">Shop</a></li>
+                        <li><a class="text-base font-normal" href="About.html">About Us</a></li>
+                        <li><a class="text-base font-normal" href="Blog.html">Our Blog</a></li>
+                        <li><a class="text-base font-normal" href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex justify-end lg:flex-row flex-row-reverse items-center gap-3">
+                    <a href="Cart.html">
+                        <i class="ri-shopping-bag-4-line text-2xl"></i>
+                    </a>
+                    <div class="border rounded-md overflow-hidden border-black lg:flex hidden">
+                        <input class="border-0 outline-none w-full px-2" type="search" placeholder="Search...">
+                        <i class="ri-search-line border-l border-black px-1 text-2xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-10">
+        <div class="container px-6 block mx-auto">
+            <div class="grid sm:grid-cols-4 gap-9">
+                <div class="sm:col-span-1 col-span-2">
+
+                    <div class="grid grid-flow-col mb-6">
+                        <input class="outline-none border p-2 w-full" placeholder="Search..." type="search">
+                        <div
+                            class="hover:bg-red-700 duration-200 rounded-r-md ease-linear hover:text-white flex items-center justify-center">
+                            <i class="ri-search-line text-xl"></i>
+                        </div>
+                    </div>
+
+                    <div class="text-xl text-gray-700 font-medium">Categories</div>
+                    <ul>
+                        <li><a class="flex justify-between border-b py-2 text-gray-500" href="#">Style Revolve
+                                <span>(8)</span></a></li>
+                        <li><a class="flex justify-between border-b py-2 text-gray-500" href="#">Ultimate Fashion
+                                <span>(8)</span></a></li>
+                    </ul>
+
+                    <div class="text-xl text-gray-700 font-medium mt-6">Recent Posts</div>
+                    <div class="grid grid-flow-col gap-3 my-7">
+                        <img class=" object-cover hover:brightness-90 duration-150 ease-linear cursor-pointer"
+                            src="images/blog-1.jpg" alt="">
+                        <div class="space-y-2">
+                            <div
+                                class="font-medium lg:text-base text-xs hover:text-red-600 duration-150 ease-linear cursor-pointer">
+                                Debunking Myths and Embracing Your Style</div>
+                            <a class="uppercase tracking-widest font-medium hover:text-red-600 duration-150 ease-linear text-xs"
+                                href="">Read more</a>
+                        </div>
+                    </div>
+                    <div class="grid grid-flow-col gap-3 my-7">
+                        <img class=" object-cover hover:brightness-90 duration-150 ease-linear cursor-pointer"
+                            src="images/blog-2.jpg" alt="">
+                        <div class="space-y-2">
+                            <div
+                                class="font-medium lg:text-base text-xs hover:text-red-600 duration-150 ease-linear cursor-pointer">
+                                Debunking Myths and Embracing Your Style</div>
+                            <a class="uppercase tracking-widest font-medium hover:text-red-600 duration-150 ease-linear text-xs"
+                                href="">Read more</a>
+                        </div>
+                    </div>
+                    <div class="grid grid-flow-col gap-3 my-7">
+                        <img class=" object-cover hover:brightness-90 duration-150 ease-linear cursor-pointer"
+                            src="images/blog-4.jpg" alt="">
+                        <div class="space-y-2">
+                            <div
+                                class="font-medium lg:text-base text-xs hover:text-red-600 duration-150 ease-linear cursor-pointer">
+                                Debunking Myths and Embracing Your Style</div>
+                            <a class="uppercase tracking-widest font-medium hover:text-red-600 duration-150 ease-linear text-xs"
+                                href="">Read more</a>
+                        </div>
+                    </div>
+
+
+                    <div class="text-xl text-gray-700 font-medium mt-10">Tags</div>
+                    <ul>
+                        <li><a class="flex justify-between border-b py-2 text-gray-500" href="#">Fashion
+                                <span>(3)</span></a></li>
+                        <li><a class="flex justify-between border-b py-2 text-gray-500" href="#">Lifestyle
+                                <span>(5)</span></a></li>
+                        <li><a class="flex justify-between border-b py-2 text-gray-500" href="#">Revolve
+                                <span>(8)</span></a></li>
+                        <li><a class="flex justify-between border-b py-2 text-gray-500" href="#">Style
+                                <span>(1)</span></a></li>
+                        <li><a class="flex justify-between border-b py-2 text-gray-500" href="#">Unique
+                                <span>(2)</span></a></li>
+                    </ul>
+                </div>
+                <div class="sm:col-span-3 col-span-2">
+                    <img class="" src="images/blog-1.jpg" alt="">
+
+                    <div class="space-y-5 py-5 text-gray-600">
+                        <div>February 23, 2024</div>
+                        <div class="font-semibold text-3xl">Debunking Myths and Embracing Your Style</div>
+                        <p>As the digital landscape evolves, staying ahead requires a commitment to proven digital
+                            excellence. This blog concludes by summarizing key strategies and encouraging businesses to
+                            embrace innovation, customer-centricity, and strategic approaches to outshine their
+                            competitors
+                            in the digital realm.
+                        </p>
+                        <p>Receive practical insights and tips on navigating the dynamic digital landscape. From SEO
+                            optimization to social media mastery, discover actionable steps to enhance your digital
+                            presence
+                            and outpace competitors.
+                        </p>
+                    </div>
+
+
+                    <div class="space-y-5 py-5 text-gray-600">
+                        <div class="font-semibold text-3xl">Proven Success Stories</div>
+                        <p>Delve into the importance of putting the customer at the center of your digital strategies.
+                            Learn how personalized experiences, targeted communication, and seamless interactions
+                            contribute to building lasting customer relationships.
+                        </p>
+
+
+                        <ul class="px-4">
+                            <li class="list-disc">Travelling alteration impression six all uncommonly.</li>
+                            <li class="list-disc">Necessary ye contented newspaper zealously breakfast he prevailed.
+                            </li>
+                            <li class="list-disc">Satisfied conveying an dependent contented he gentleman agreeable do
+                                be.</li>
+                            <li class="list-disc">Repulsive questions contented him few extensive supported</li>
+                        </ul>
+
+
+
+                        <div class="font-semibold text-3xl">Leave a Reply</div>
+
+                        <form class="space-y-4" action="#">
+                            <div class="space-y-2">
+                                <label class="font-medium" for="">Name*</label>
+                                <input class="w-full border outline-none p-2" type="text">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="font-medium" for="">Email*</label>
+                                <input class="w-full border outline-none p-2" type="text">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="font-medium" for="">Website</label>
+                                <input class="w-full border outline-none p-2" type="text">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="font-medium" for="">Message*</label>
+                                <textarea class="w-full border outline-none p-2" rows="6" name="" id=""></textarea>
+                            </div>
+
+                            <button
+                                class="uppercase bg-white p-2 font-medium md:px-6 px-3 tracking-widest md:text-base text-xs hover:bg-black hover:text-white duration-150 ease-in"
+                                tabindex="0">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="bg-black text-white">
+        <div class="container px-6 block mx-auto py-12">
+            <div class="grid lg:grid-cols-5 lg:gap-0 sm:grid-cols-3 grid-cols-1 gap-5">
+                <div class="">
+                    <img class="w-24" src="images/og-Logo-white.webp" alt="">
+                    <div class="my-4">Dui nunc mattis enim ut tellus elementum sagittis
+                        vitae et. Vel quam elementum pulvinar etiam non quam
+                        gravida arcu ac tortor dignissi.
+                    </div>
+                    <div class="flex gap-3">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-linkedin-box-fill"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <ul class="space-y-2">
+                        <li><a class="text-lg font-medium" href="#">Customer Service</a></li>
+                        <li><a class="text-sm" href="#">Track My Order</a></li>
+                        <li><a class="text-sm" href="#">Homepage</a></li>
+                        <li><a class="text-sm" href="#">Shipping Info</a></li>
+                        <li><a class="text-sm" href="#">Privacy Policy</a></li>
+                        <li><a class="text-sm" href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <ul class="space-y-2">
+                        <li><a class="text-lg font-medium" href="#">Information</a></li>
+                        <li><a class="text-sm" href="#">Who We Are</a></li>
+                        <li><a class="text-sm" href="#">Homepage</a></li>
+                        <li><a class="text-sm" href="#">Rewards</a></li>
+                        <li><a class="text-sm" href="#">Pro Program</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="space-y-2">
+                        <li><a class="text-lg font-medium" href="#">Quick Shop</a></li>
+                        <li><a class="text-sm" href="#">Women</a></li>
+                        <li><a class="text-sm" href="#">Men</a></li>
+                        <li><a class="text-sm" href="#">Clothes</a></li>
+                        <li><a class="text-sm" href="#">Accessories</a></li>
+                        <li><a class="text-sm" href="#">Offer Zone</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="space-y-2">
+                        <li><a class="text-lg font-medium" href="#">Office Address</a></li>
+                        <li><a class="text-sm" href="#"><i class="ri-map-pin-2-fill"></i> No: 58 A, East Madison Street
+                                Baltimore, MD, USA 4508</a></li>
+                        <li><a class="text-sm" href="#"><i class="ri-map-pin-2-fill"></i> East Hampton66 Newtown Lane
+                                East Hampton, NY 11937</a></li>
+                        <li><a class="text-sm" href="#"><i class="ri-phone-fill"></i> +1 123 456 7890</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white py-3">
+            <div class="container px-6 block mx-auto">
+                <div class="grid grid-cols-4">
+                    <div class="text-gray-700 col-span-3">
+                        Copyright © 2025 oghomme | Powered by Spexo WordPress Theme
+                    </div>
+
+                    <div class="">
+                        <img src="images/cards.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
