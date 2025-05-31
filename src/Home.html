@@ -31,9 +31,19 @@
     left: 20px;
     z-index: 2;
   }
+
+
+  /* nav ul li a {
+    color: red;
+  } */
 </style>
 
 <body class="min-w-[360px]">
+
+  <!-- mask -->
+  <div class="mask w-screen h-screen bg-[#000000c2] hidden fixed z-10"></div>
+  <!-- mask -->
+
   <nav class="">
     <div class="bg-[#C01424] text-white text-center py-4">FREE SHIPPING OVER $99.99</div>
     <div class="container px-6 block mx-auto py-3">
@@ -48,9 +58,9 @@
 
         <!-- <div class=""> -->
         <ul
-          class="lg:flex lg:static lg:p-0 lg:h-auto lg:w-auto lg:space-y-0 lg:gap-8 fixed top-0 bg-white h-screen z-10 w-[250px] p-10 space-y-5 justify-between uppercase xl:gap-8 left-[-100%] duration-150 ease-linear sideNav">
+          class="lg:flex lg:static lg:p-0 lg:h-auto lg:w-auto lg:space-y-0 lg:gap-8 lg:z-0 fixed top-0 bg-white h-screen z-10 w-[250px] p-10 space-y-5 justify-between uppercase xl:gap-8 left-[-100%] duration-150 ease-linear sideNav">
           <i class="ri-close-circle-line text-2xl lg:hidden sideNavClose"></i>
-          <li><a class="text-base font-normal text-red-600" href="Home.html">Home</a></li>
+          <li><a class="text-base font-normal " href="Home.html">Home</a></li>
           <li><a class="text-base font-normal" href="Shop.html">Shop</a></li>
           <li><a class="text-base font-normal" href="About.html">About Us</a></li>
           <li><a class="text-base font-normal" href="Blog.html">Our Blog</a></li>
@@ -67,7 +77,6 @@
             <i class="ri-search-line border-l border-black px-1 text-2xl"></i>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -504,25 +513,14 @@
     </div>
   </footer>
 
+
+  <script src="script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
     integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-
-  <script>
-    document.querySelector('.sideNav-tog').addEventListener('click', () => {
-      document.querySelector('.sideNav').classList.remove('left-[-100%]')
-      document.querySelector('.sideNav').classList.add('left-0')
-    })
-    document.querySelector('.sideNavClose').addEventListener('click', () => {
-      document.querySelector('.sideNav').classList.add('left-[-100%]')
-      document.querySelector('.sideNav').classList.remove('left-0')
-    })
-  </script>
 
 
   <script>

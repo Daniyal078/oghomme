@@ -21,37 +21,46 @@
     <nav class="">
         <div class="bg-[#C01424] text-white text-center py-4">FREE SHIPPING OVER $99.99</div>
         <div class="container px-6 block mx-auto py-3">
-            <div class="grid items-center justify-between grid-flow-col">
-                <i class="lg:hidden ri-menu-fill text-2xl"></i>
-
-                <div>
-                    <a href="Home.html">
-                        <img class="lg:w-28 w-20" src="images/Oh-Homme.webp" alt="">
-                    </a>
-                </div>
-
-                <div class="lg:block hidden">
-                    <ul class="flex justify-between uppercase xl:gap-8 lg:gap-8">
-                        <li><a class="text-base font-normal text-red-600" href="Home.html">Home</a></li>
-                        <li><a class="text-base font-normal" href="Shop.html">Shop</a></li>
-                        <li><a class="text-base font-normal" href="About.html">About Us</a></li>
-                        <li><a class="text-base font-normal" href="Blog.html">Our Blog</a></li>
-                        <li><a class="text-base font-normal" href="Contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-
-                <div class="flex justify-end lg:flex-row flex-row-reverse items-center gap-3">
-                    <a href="Cart.html">
-                        <i class="ri-shopping-bag-4-line text-2xl"></i>
-                    </a>
-                    <div class="border rounded-md overflow-hidden border-black lg:flex hidden">
-                        <input class="border-0 outline-none w-full px-2" type="search" placeholder="Search...">
-                        <i class="ri-search-line border-l border-black px-1 text-2xl"></i>
-                    </div>
-                </div>
+          <div class="grid items-center justify-between grid-flow-col">
+            <i class="lg:hidden ri-menu-fill text-2xl sideNav-tog"></i>
+    
+            <div>
+              <a href="Home.html">
+                <img class="lg:w-28 md:w-36 w-20" src="images/Oh-Homme.webp" alt="">
+              </a>
             </div>
+    
+            <!-- <div class=""> -->
+            <ul
+              class="lg:flex lg:static lg:p-0 lg:h-auto lg:w-auto lg:space-y-0 lg:gap-8 fixed top-0 bg-white h-screen z-10 w-[250px] p-10 space-y-5 justify-between uppercase xl:gap-8 left-[-100%] duration-150 ease-linear sideNav">
+              <i class="ri-close-circle-line text-2xl lg:hidden sideNavClose"></i>
+              <li><a class="text-base font-normal " href="Home.html">Home</a></li>
+              <li><a class="text-base font-normal" href="Shop.html">Shop</a></li>
+              <li><a class="text-base font-normal" href="About.html">About Us</a></li>
+              <li><a class="text-base font-normal" href="Blog.html">Our Blog</a></li>
+              <li><a class="text-base font-normal" href="Contact.html">Contact Us</a></li>
+            </ul>
+            <!-- </div> -->
+    
+            <div class="flex justify-end lg:flex-row flex-row-reverse items-center gap-3">
+              <a href="Cart.html">
+                <i class="ri-shopping-bag-4-line text-2xl"></i>
+              </a>
+              <div class="border rounded-md overflow-hidden border-black lg:flex hidden">
+                <input class="border-0 outline-none w-full px-2" type="search" placeholder="Search...">
+                <i class="ri-search-line border-l border-black px-1 text-2xl"></i>
+              </div>
+            </div>
+          </div>
         </div>
-    </nav>
+    
+        <div class="px-6 pb-3">
+          <div class="border rounded overflow-hidden border-black lg:hidden flex">
+            <input class="border-0 outline-none w-full px-2" type="search" placeholder="Search...">
+            <i class="ri-search-line border-l border-black px-1 text-2xl"></i>
+          </div>
+        </div>
+      </nav>
 
     <section class="py-10">
         <div class="container px-6 block mx-auto">
